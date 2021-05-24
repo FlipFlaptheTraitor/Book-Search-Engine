@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd server && npm start",
+    "start":  "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/FlipFlaptheTraitor/Book-Search-Engine.git"
   },
-  "author": "",
+  "author": "Kevin Miller",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FlipFlaptheTraitor/Book-Search-Engine/issues"

@@ -17,7 +17,7 @@ This program was designed to use mongo graphsql and react to create a book searc
   
   ## Installation
 This program simply requires running npm install in order to run after being cloned from the repository.
-  
+  to run the program run the command npm run start:dev
   ## Usage 
 Live deployment can be found here https://calm-gorge-59351.herokuapp.com/
   ## Credits
